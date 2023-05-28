@@ -1,0 +1,33 @@
+track_id,Experiment_id,Title,AVG_Valence,AVG_Arousal,eeg_name,V,A
+1,2.0,Lustra - Scotty Doesn't Know,0.23215,0.4821500000000001,DA0310F5,-0.3,0.7
+2,3.0,Jackson 5 - Blame It On The Boogie,0.483325,0.3666750000000001,DA0310EY,0.6,0.6
+3,4.0,The B52'S  - Love Shack,0.5,0.233325,DA0310F1,0.1,0.4
+4,6.0,Blink 182  - First Date,0.283325,0.3,DA0310F9,0.1,0.9
+5,9.0,Queen - I Want To Break Free,0.516675,0.3500000000000001,DA0310F2,0.3,0.5
+6,14.0,Jason Mraz - I'm Yours,0.516675,-0.066675,DA0310F7,0.4,0.5
+7,19.0,Manu Chao  - Me Gustas Tu,0.6333249999999999,-0.1333249999999999,DA0310F3,-0.6,0.3
+8,18.0,Louis Armstrong  - What A Wonderful World ,0.533325,-0.283325,DA0310ET,0.3,0.4
+9,22.0,Porcupine Tree - Normal,-0.1999999999999999,-0.316675,DA0310EF,-0.45,0.3
+10,24.0,James Blunt - Goodbye My Lover,-0.416675,-0.516675,DA0310EI,0.3,-0.5
+11,27.0,Madonna - Rain,-0.1666749999999999,-0.4666749999999999,DA0310ER,0.05,0.05
+12,29.0,Christina Aguilera  - Hurt,-0.390625,-0.34375,DA0310EE,-0.4,-0.1
+13,30.0,Enya  - May It Be (Saving Private Ryan),-0.4499999999999999,-0.333325,DA0310EL,0.1,-0.3
+14,32.0,Marilyn Manson - The Beautiful People,-0.0833250000000001,0.3500000000000001,DA0310F4,-0.3,0.4
+15,36.0,Sepultura  - Refuse Resist,-0.0166749999999999,0.566675,DA0310F8,-0.6,0.6
+16,37.0,Cradle Of Filth  - Scorched Earth Erotica,-0.4333249999999999,0.2166749999999999,DA0310F6,-0.4,0.6
+17,,Music Generator - A1_V-08_A-08,-0.8,-0.8,DA0310EM,-0.5,0.3
+18,,Music Generator - A2_V-08_A08,-0.8,0.8,DA0310EG,-0.3,0.5
+19,,Music Generator - A3_V08_A-08,0.8,-0.8,DA0310EX,0.1,0.4
+20,,Music Generator - A4_V08_A08,0.8,0.8,DA0310F0,-0.3,0.4
+21,,Music Generator - A5_V-08_A-08,-0.8,-0.8,DA0310EZ,-0.1,0.1
+22,,Music Generator - A6_V-08_A08,-0.8,0.8,DA0310EH,0.15,0.5
+23,,Music Generator - A7_V08_A-08,0.8,-0.8,DA0310EU,-0.2,-0.3
+24,,Music Generator - A8_V08_A08,0.8,0.8,DA0310EV,0.8,0.95
+25,,Music Generator - A9_V08_A08,0.8,0.8,DA0310ES,-0.3,-0.3
+26,,Music Generator - A10_V-08_A-08,-0.8,-0.8,DA0310EN,-0.2,-0.4
+27,,Music Generator - A11_V-08_A08,-0.8,0.8,DA0310EJ,0.7,0.9
+28,,Music Generator - A12_V-08_A08,-0.8,0.8,DA0310EQ,0.3,0.7
+29,,Music Generator - A13_V00_A00,0.0,0.0,DA0310EO,0.4,0.2
+30,,Music Generator - A14_V08_A-08,0.8,-0.8,DA0310EW,0.2,0.6
+31,,Music Generator - A15_V08_A08,0.8,0.8,DA0310EP,0.8,0.8
+32,,Music Generator - A16_V08_A08,0.8,0.8,DA0310EK,0.8,0.85
