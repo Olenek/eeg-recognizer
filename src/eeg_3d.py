@@ -1,10 +1,3 @@
-'''
-Created by Pouya bashivan
-This code has been created by p. bashivan source : https://github.com/pbashivan/EEGLearn
-'''
-
-__author__ = 'Pouya Bashivan'
-
 import numpy as np
 
 np.random.seed(123)
@@ -62,7 +55,7 @@ def gen_image(locs, features, resolution):
                         Features corresponding to each frequency band are concatenated.
                         (alpha_1, alpha_2, ..., beta1, beta2,...)
     :param resolution:  Number of pixels in the output images
-    :return:            Tensor [H, W, channels] containing generated image.
+    :return:            Tensor [H, W, channels.txt] containing generated image.
     """
     eeg_channels = locs.shape[0]  # number of electrodes
 
@@ -71,7 +64,7 @@ def gen_image(locs, features, resolution):
 
     img_channels = int(features.shape[0] / eeg_channels)
 
-    # split by bands (channels)
+    # split by bands (channels.txt)
     feat_array_temp = [features[c * eeg_channels: eeg_channels * (c + 1)] for c in range(img_channels)]
 
     min_x, min_y = np.min(locs, axis=0)
@@ -93,7 +86,6 @@ def gen_image(locs, features, resolution):
     # Interpolating
     for c in range(img_channels):
         temp_interp[c] = griddata(locs, feat_array_temp[c], (grid_x, grid_y),
-                                        method='cubic', fill_value=0)
+                                        method='linear', fill_value=0)
 
-    # swap axes [channels x H x W] -> [H x channels x W] -> [H x W x channels]
     return np.asarray(temp_interp)

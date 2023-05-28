@@ -1,8 +1,5 @@
-import os
-import time
 import pickle
-import pandas as pd
-import numpy as np
+
 import torch
 from torch.utils.data import Dataset
 
@@ -30,3 +27,8 @@ class NumpyArrayDataset(Dataset):
             return x, y
         else:
             return x
+
+
+SEQ_LEN = 6
+RESOLUTION = 28
+IMG_CHANNELS = 3
